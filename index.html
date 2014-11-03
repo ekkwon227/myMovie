@@ -1,79 +1,134 @@
 <!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2014 by gracekwon (http://jsbin.com/ruxefu/2/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
 <html>
+<head>
+  <meta charset="utf-8">
+  <title>exam</title>
+  <style>
+    body {
+      background-color:#b0eeff;
+      max-width:500px;
+      margin:0 auto;
+      font-family: "NanumGothic", "Malgun Gothic", "Apple SD Neo Gothic", "AppleGothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size:16px;
+    }
+    h1 {text-align:center;
+        margin:70px 0 40px;
+      font-size:1.7em;
+    }
+    h2 {
+       font-size:1.4em;
+       color:#16cc7e;
+       border-bottom:2px solid #22cc35;
+       border-width:4px;
+       padding:4px 0;
+       margin :0;
+    }
+    p {
+      margin : 20px 0;
+      line-height:1.5em;
+      font-size:0.8em;
+    }
+    .s1, .s2 {
+      font-weight:bold;
+      padding:3px;
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Mymovie : myWork">
+    }
+    .s1 {
+      background-color:#16cc7e; 
+      border-radius:4px;
+    }
+    .s2 {
+      background-color:black;
+      color:white;
+    }
+    .name {text-align:right;}
+    .com {
+      margin: 40px 0;
+    }
+    img {
+      float:left;
+      width:100px;
+      padding-right:8px;
+      padding-bottom:5px;
+    }
+    ul, ol {
+      padding-left:0;
+      font-size:0.8em;
+    }
+    li {
+      padding:4px;
+    }
+    .foot {
+      font-style:italic;
+      font-size:0.8em;
+    }
+    table {
+      background-color:#eee;
+      font-size:0.8em;
+      text-align:center;
+      padding:3px;
+      box-shadow:1px 1px 2px #888;
+      margin:5px auto;
+    }
+    td {
+      padding:0 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>
+중간고사
+  </h1>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Mymovie</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/ekkwon227/myMovie">View on GitHub</a>
-
-          <h1 id="project_title">Mymovie</h1>
-          <h2 id="project_tagline">myWork</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/ekkwon227/myMovie/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/ekkwon227/myMovie/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Mymovie maintained by <a href="https://github.com/ekkwon227">ekkwon227</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+ <div class="name">비반유형A</div> 
+  <div class="com">
+  <h2>인라인 요소 목록</h2>
+  <p>다음은 HTML에서 자주 사용되는 요소들입니다.</p>
+<ul>
+  <li><span class="s1">a </span>: 하이퍼링크 (Anchor)</li>
+<li><span class="s1">img </span>: 이미지 (Image)</li>
+<li><span class="s1">span </span>: 일반용도의 인라인 (Span)</li>
+<li><span class="s1">strong </span>: 중요 (Strong)</li>
+  <li><span class="s1">em </span>: 강조 (Emphasis)</li>
+    </ul></div> <div class="com">
+  <h2>표 만들기</h2>
+  <P>표를 만들려면 <span class="s2">table</span> 요소를 사용합니다.</P>
+<table>
+  <thead><tr>
+    <th>음료</th>	<th>가격</th>	<th>알콜</th></tr></thead>
+  <tbody><tr><td>아메리카노</td><td>2,000</td>	<td>X</td></tr>
+<tr><td>카페모카</td><td>2,500</td><td>X</td></tr>
+    <tr><td>맥주</td><td>3,000</td><td>Y</td></tr></tbody></table></div>
+   <div class="com">
+<h2>이미지 넣기</h2>
+<P>
+  <img src="http://kaywonsad.appspot.com/s/art01.jpg" alt="scene1">Painting 1 이미지를 넣으려면 <span class="s2">img</span> 요소를 사용합니다.</p><p><span class="s2">src</span> 속성에는 이미지의 경로(URL)를 적습니다.</p>
+<p>이미지 요소에는 항상 <span class="s2">alt</span> 속성을 사용하여 대체 텍스트를 명시해주어야 합니다. "alt"는 "Alternative text"의 약자로, 이미지를 표시할 수 없을 때 이미지를 대신하여 나타낼 텍스트를 뜻합니다.</p></div>
+   <div class="com">
+<h2>CSS란?</h2>
+<P>CSS는 Cascading Stylesheet의 약자이며 HTML 같은 마크업 언어로 작성된 문서를 꾸미기 위해 사용합니다. HTML 문서의 <span class="s2">head</span> 요소 안에 <span class="s2">style</span> 요소를 넣고 CSS 코드를 적으면 해당 문서를 다양하게 꾸밀 수 있습니다.</p><p>CSS에 대한 더 자세한 설명은 <a href="index2.html">CSS</a> 문서를 참고하세요.</P>
+<h2>HTML이란?</h2>
+  <P>HTML은 <span class="s1">하이퍼텍스트 마크업 언어(Hypertext Markup Language)</span>의 약자로, 웹 페이지를 만들 때 사용되는 문서 형식입니다.</p><p>하이퍼텍스트(Hypertext)란 하이퍼링크(Hyperlink)를 담고 있는 문서를 뜻합니다. 하이퍼링크는 문서들이 서로 연결되어 있는 고리를 말합니다.</P></div>
+ <div class="com">
+  <h2>블럭 요소 목록</h2>
+  <p>다음은 HTML에서 자주 사용되는 요소들입니다.</p>
+<ol>
+  <li><span class="s1">p </span>: 단락 (Paragraph)</li>
+<li><span class="s1">h1 </span>: 큰제목 (Heading 1)</li>
+<li><span class="s1">ul </span>: 순서 없는 목록 (Unordered List)</li>
+<li><span class="s1">ol </span>: 순서 있는 목록 (Ordered List)</li>
+<li><span class="s1">table </span>: 표 (table)</li>
+   </ol></div>
+ <div class="com foot">
+   2014년 10월 14일 중간고사, <span class="name">비반유형A</span>작성</div>
+</body>
 </html>
